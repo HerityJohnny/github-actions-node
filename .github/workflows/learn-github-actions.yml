@@ -1,8 +1,8 @@
 name: Check_Json_Web_Token_Version
 on: [push]
 jobs:
-	check-version-jwt:
-		runs-on: ubuntu-latest
+  check-jwt:
+	  runs-on: ubuntu-latest
 		steps:
 			- uses: action/checkout@v2
 			- uses: action/setup-node@v1
