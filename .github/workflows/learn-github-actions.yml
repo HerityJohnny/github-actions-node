@@ -7,4 +7,4 @@ jobs:
       - uses: action/checkout@v2
       - uses: action/setup-node@v1
       - run: npm i jsonwebtoken
-      - run: jsonwebtoken -v
+      - run: jsonwebtoken --version
