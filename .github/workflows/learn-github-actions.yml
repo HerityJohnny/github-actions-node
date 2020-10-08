@@ -1,10 +1,10 @@
-name: Check_Json_Web_Token_Version
+name: Express js Version
 on: [push]
 jobs:
-  check-jwt-version:
+  check-express-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: npm i jsonwebtoken
-      - run: jsonwebtoken --version
+      - run: npm i --save express
+      - run: express -v
