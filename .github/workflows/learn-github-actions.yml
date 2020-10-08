@@ -1,5 +1,5 @@
 name: Express js Version
-on: [push]
+on: [push, pull_request]
 jobs:
   check-express-version:
     runs-on: ubuntu-latest
