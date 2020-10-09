@@ -1,0 +1,40 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "A CI/CD pipeline setup for a node application deployed to azure app service",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon app",
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerityJohnny/github-actions-node.git"
+  },
+  "keywords": [
+    "CI/CD",
+    "Azure",
+    "Github_Actions"
+  ],
+  "author": "TObi Ajibade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HerityJohnny/github-actions-node/issues"
+  },
+  "homepage": "https://github.com/HerityJohnny/github-actions-node#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "paystack-api": "^2.0.5",
+    "redis": "^3.0.2"
+  }
+}
